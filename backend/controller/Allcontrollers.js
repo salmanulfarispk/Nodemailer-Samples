@@ -40,7 +40,7 @@ module.exports={
         try {
         
             const transporter = nodemailer.createTransport({
-                host: 'smtp.ethereal.email',
+                host: 'smtp.ethereal.email',    //or we can use directly as "gmail"
                 port: 587,
                 auth: {
                     user: 'susanna.heaney11@ethereal.email',
