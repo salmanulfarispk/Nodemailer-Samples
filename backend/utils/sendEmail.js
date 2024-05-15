@@ -24,7 +24,7 @@ const sendEmail=async(subject,message,send_to,send_from,reply_to)=>{
      html: message,
     } 
 
-    //send Email
+    //sending Email at here..
 
     transporter.sendMail(options, (err, info)=>{
        if(err){
@@ -36,5 +36,9 @@ const sendEmail=async(subject,message,send_to,send_from,reply_to)=>{
 
 };
 
+        
+    
 
+   
+                 
 module.exports= sendEmail;
